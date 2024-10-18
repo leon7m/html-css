@@ -1,0 +1,82 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.optionsbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-attachment: scroll;
+    padding:20px 40px ;
+    background-color: white;
+    flex-wrap: nowrap;
+    text-size-adjust: 20px;
+}
+
+.image{
+    width: 170px;
+    height: 90px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.aadress{
+    display: flex;
+    flex-direction: column;
+}
+
+.taust{
+}
+
+
+
+.page{
+    background-image: url(/veebileht/assets/taustapilt.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.background2{
+    height: 400px;
+    width: 350px;
+background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.valik{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px;
+}
+
+.ukssuund{
+    border: 2px;
+}
+
+.otsi{
+    background-color: orangered;
+    height: 50px;
+    border: none;
+
+}
